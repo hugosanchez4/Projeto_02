@@ -1,0 +1,24 @@
+projeto 02 - arvore, floresta aleatoria e xgboost
+
+dados (os mesmos do projeto 01):
+- cdc diabetes, amostra de 8000 (openml 46841)
+- pumpkin seeds (kaggle / koklu, via openml)
+os csv estao em dados/, copiados do projeto 01
+
+split igual ao projeto 01, senao a comparacao entre os mini-projetos nao vale:
+- test_size=0.25, random_state=7, stratify
+- cv=3 so no conjunto de treino
+- metrica da busca: f1_weighted
+- metricas reportadas: acuracia, precisao, revocacao, f1 e matriz de confusao
+arvores nao precisam de padronizacao (StandardScaler nao muda a predicao)
+
+como rodar:
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requisitos.txt
+python arvore.py
+python floresta.py
+python xgboost_modelo.py
+python comparacao.py
+
+figuras/ e resultados/ saem depois de rodar

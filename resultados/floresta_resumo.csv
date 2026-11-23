@@ -1,0 +1,5 @@
+modelo,acc,prec,rec,f1,dataset,cv,params,tempo_s,split
+floresta_treino_cdc,0.9643333333333334,0.9655293564333741,0.9643333333333334,0.9621516984701942,cdc,0.8314265234359826,"{'n_estimators': 100, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': 12}",11.2609609000001,treino
+floresta_teste_cdc,0.855,0.8156255451240851,0.855,0.823547919308628,cdc,0.8314265234359826,"{'n_estimators': 100, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': 12}",11.2609609000001,teste
+floresta_treino_pumpkin,0.9765333333333334,0.9775466143277723,0.9765333333333334,0.9764982418782543,pumpkin,0.8872177671425296,"{'n_estimators': 100, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': 12}",8.336172442999668,treino
+floresta_teste_pumpkin,0.8912,0.8925383022774327,0.8912,0.8909480185280494,pumpkin,0.8872177671425296,"{'n_estimators': 100, 'min_samples_leaf': 1, 'max_features': 0.5, 'max_depth': 12}",8.336172442999668,teste
